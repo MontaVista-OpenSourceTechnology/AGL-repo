@@ -29,21 +29,21 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="d6b8790370500b99ca11f0d8a05c39b661ab2ba6" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="529620141e773080a6a7be4615fb7993204af883" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="e51bf557f596c4da38789a948a3228ba11455e3c" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="9c5541f7e18a1fac3b8dea71e1ebb8398d58e6ff" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust-1.68" remote="yocto" revision="59fd1bd537f501f93df7d1e46a103bf8f2195ed3" upstream="kirkstone/rust-1.68" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e60f59f3567b78286ea34337dbae468a5f18f1c6" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="2d8b3cba8ff27c9ec2187a52b6a551fe1dcfaa07" upstream="kirkstone"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="bff5bd937f0776166e81a63f3dd39ede348ef758" upstream="kirkstone"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="31930afca79b74e0c788452d71356c1f045e7979" upstream="kirkstone"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="06c240c3c235fa06fe724e278d53463ac67cc26b" upstream="kirkstone"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" upstream="kirkstone"/>
 
   <!-- SELinux layer -->
   <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="kirkstone"/>
