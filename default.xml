@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="926eb08fe325e2ea13098f99d920840b9354ceb9" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="aeac1034661725b5c83e79f76238429fb236b090" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e42d1e758f9f08b98c0e8c6f0532316951bb276f" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="9135c7ea7350d5d241f4afc3b28087122ebe2d19" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="0dbb8593fa38ac2a04fcac04ff3e35611e849824" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="35c723774ee06b3c1831f00a2cbf25cbeae132e1" upstream="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
@@ -76,8 +76,8 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="76de0f78cb4519d6212d82c4e374cc2973352ff9" upstream="dunfell"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="4c0a166fa2809f74c93bd4c56d9a0f7ccb7818c8" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="501032fb30abbad54616a2d9bb4555c297fc35b6" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="5ae8890c1a64271636bcd7773996bddd51e700d8" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" upstream="dunfell"/>
