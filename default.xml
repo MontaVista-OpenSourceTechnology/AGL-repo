@@ -19,7 +19,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" upstream="sandbox/YAMAGUCHINaoto/rk3588-nanopc-t6" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
@@ -91,5 +91,9 @@
 
   <!-- Sifive BSP -->
   <project name="dl9pf/meta-sifive" path="bsp/meta-sifive" remote="github" revision="80a979fd222623b56e44493cf92bd9e276a65453" upstream="master"/>
+
+  <!-- NanoPC-T6 BSP -->
+  <project name="JeffyCN/meta-rockchip" path="bsp/meta-rockchip" remote="github" revision="3746c076e9dc426c5b21c377bf8e9a557e3b8691" upstream="kirkstone"/>
+  <project name="agl-ic-eg/meta-rockchip-extra" path="bsp/meta-rockchip-extra" remote="github" revision="c59325d5e5526dd6a856ec63a62ac3d902397c3e" upstream="main"/>
 
 </manifest>
