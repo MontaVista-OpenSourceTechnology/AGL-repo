@@ -29,18 +29,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="e51bf557f596c4da38789a948a3228ba11455e3c" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="9c5541f7e18a1fac3b8dea71e1ebb8398d58e6ff" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="d8d6d921fad14b82167d9f031d4fca06b5e01883" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8a75c61cce2aa1d6e5a3597ab8fc5a7e6aeae1e4" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust-1.68" remote="yocto" revision="6b3a208f7e14138728a6e581ac75e8973ab48ef3" upstream="kirkstone/rust-1.68" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="2d8b3cba8ff27c9ec2187a52b6a551fe1dcfaa07" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="67b0ef4256a484851f3556d281ca4caa88374388" upstream="kirkstone"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="31930afca79b74e0c788452d71356c1f045e7979" upstream="kirkstone"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" upstream="kirkstone"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" upstream="kirkstone"/>
@@ -55,7 +55,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="25373bc58ece8b6f07680a103b4a1bbbc99e0db1" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="2d08d6bf376a1e06c53164fd6283b03ec2309da4" upstream="kirkstone"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="79169d9be565b7a87310ca280d3a21aaf608ce33" upstream="kirkstone"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
@@ -78,7 +78,7 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f5cc0843233ad0df25aaf801198f67a9c1774a54" upstream="kirkstone"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="dfd01d7bdf87b6bda254780a35659975d2b2c66e" upstream="kirkstone"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="1a6ea560015ecda5fff8eccaf5b1327f1bb6c57f" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
