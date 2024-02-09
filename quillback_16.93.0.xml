@@ -31,7 +31,7 @@
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="external/poky" remote="yocto" revision="755632c2fcab43aa05cdcfa529727064b045073c" upstream="kirkstone" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="402affcc073db39f782c1ebfd718edd5f11eed4c" upstream="kirkstone" />
-  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust-1.68" remote="yocto" revision="6b3a208f7e14138728a6e581ac75e8973ab48ef3" upstream="kirkstone/rust-1.68" />
+  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="1a4a2bb94f115ba240adbe53280f8ef71f5739d0" upstream="kirkstone/rust-1.70" />
 
 
   <!-- UPSTREAM COMPONENTS -->
