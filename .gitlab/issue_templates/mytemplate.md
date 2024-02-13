@@ -1,2 +1,3 @@
-**Please use https://jira.automotivelinux.org  for issues.**
+**Please use https://gerrit.automotivelinux.org  for code contributions.**
 See also: https://docs.automotivelinux.org/ chapter "How to contribute".
+
