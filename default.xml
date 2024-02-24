@@ -29,18 +29,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="755632c2fcab43aa05cdcfa529727064b045073c" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="402affcc073db39f782c1ebfd718edd5f11eed4c" upstream="kirkstone" />
-  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust-1.68" remote="yocto" revision="6b3a208f7e14138728a6e581ac75e8973ab48ef3" upstream="kirkstone/rust-1.68" />
+  <project name="poky" path="external/poky" remote="yocto" revision="54af8c5e80ebf63707ef4e51cc9d374f716da603" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8609de00952d65bb813a48c535c937324efeb18a" upstream="kirkstone" />
+  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="1a4a2bb94f115ba240adbe53280f8ef71f5739d0" upstream="kirkstone/rust-1.70" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="88327090d26955a678c6f8bd2585aad4d802f6c4" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="7902664f89678164b7fc90d421cee74cbec51cdf" upstream="kirkstone"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" upstream="kirkstone"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="fe0bf7f0e5408aac6cc89ff3b19b1b1941df4f64" upstream="kirkstone"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" upstream="kirkstone"/>
