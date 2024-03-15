@@ -71,8 +71,8 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="4160ddb33390fa5266635c65c5a5abbed27845f6" upstream="dunfell-dev"/>
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="fc6201d93336a314c532e063e0abc48969b3b868" upstream="v5.9.0"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="c99a3afff2e113b47f1cc5d17d07aba0ef25ac98" upstream="dunfell"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="d43bc2270cb26b0f7e72ad635103541606c0907e" upstream="v5.9.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
@@ -80,18 +80,18 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="5ae8890c1a64271636bcd7773996bddd51e700d8" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" upstream="dunfell"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="02a53f48b9bdb242185204610610f2209bc92ca6" upstream="dunfell"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="b75b8ce1ac10dc3521c0f710a4cf79bc7e985cfd" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="bdae918d9056ce8a7ad76567b1b521249dac5e46" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="2081e1bb9a44025db7297bfd5d024977d42191ed" upstream="dunfell"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="2778e164cd0427277e37fc03c8ed19179da1613b" upstream="dunfell"/>
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="fe8295d9f6160d5ef5097ab755c47bf1950338c8" upstream="dunfell"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="e220d23c2c01ca18161d3fb0486f295e6e90ba03" upstream="dunfell"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="7b556aa2265cfc41e6e5fda7085619436fe9a385" upstream="dunfell"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="e1a23019ce2ff3879986fa63071f1a2caa23697c" upstream="dunfell"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="73e3b9236e4c722f34058162cbb2c04e749cf162" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
   <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="80656bf6551b2056c8cb02a74510e595e2553048" upstream="dunfell-agl"/>

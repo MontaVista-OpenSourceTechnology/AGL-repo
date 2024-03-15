@@ -52,7 +52,7 @@
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="dunfell"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
-  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
+  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="2231a85713443b29d9c35a3cc1b727da4db3be24" upstream="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="dunfell"/>
@@ -72,7 +72,7 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="dunfell-dev"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="dunfell"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="v5.9.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
@@ -92,6 +92,9 @@
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="dunfell"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="dunfell"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
+
+  <!-- meta-synopsys - support for ARC HSDK board -->
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="80656bf6551b2056c8cb02a74510e595e2553048" upstream="dunfell-agl"/>
 
 </manifest>
