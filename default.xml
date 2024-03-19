@@ -57,9 +57,6 @@
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="312ff1c39b1bf5d35c0321e873417eb013cea477" upstream="kirkstone"/>
 
-  <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
-  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
-
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="19f8ee7125c5621a9ac6eb3d236c573318f7e0ec" upstream="kirkstone"/>
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="9da59747656328f80faca43e52d4b4fa3ef6682d" upstream="main"/>
