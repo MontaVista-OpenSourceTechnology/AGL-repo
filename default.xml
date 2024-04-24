@@ -12,7 +12,7 @@
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="quillback"/>
+  <default remote="agl" sync-j="4" revision="refs/heads/sandbox/jsmoeller/qt6"/>
 
 
   <!-- CORE -->
@@ -72,7 +72,7 @@
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="11221be7ff3a535f17357bc8ac7e2851d0e8ff02" upstream="kirkstone-dev"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="511808a3e794ad0e35386f83d3d159c9ba48b4be" upstream="kirkstone-Yocto-v5.9.0"/>
-  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
+  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" revision="quillback" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="710e55d529c86d15a93c4421365ef62eb601a49b" upstream="kirkstone"/>
