@@ -12,7 +12,7 @@
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="master"/>
+  <default remote="agl" sync-j="4" revision="next"/>
 
 
   <!-- CORE -->
@@ -30,23 +30,23 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="scarthgap" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="master" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="master" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="scarthgap"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="master"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="master"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="scarthgap"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="master"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="scarthgap"/>
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="master"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
@@ -55,7 +55,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="scarthgap"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="master"/>
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="master"/>
@@ -76,23 +76,22 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="scarthgap"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="scarthgap"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="master"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="master"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="scarthgap"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="master"/>
 
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="master"/>
-  <project name="meta-lts-mixins" path="bsp/meta-lts-mixins_u-boot" remote="yocto" revision="scarthgap/u-boot"/>
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="kirkstone"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- meta-sifive -->
-  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="scarthgap"/>
+  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="master"/>
 
   <!-- meta-riscv for several risc boards -->
   <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="master"/>
