@@ -40,7 +40,7 @@
   <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="scarthgap"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="master"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="scarthgap"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="scarthgap"/>
@@ -68,7 +68,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="master"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="scarthgap"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="scarthgap-dev"/>
@@ -80,7 +80,7 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="scarthgap"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="scarthgap"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="scarthgap"/>
 
   <!-- Raspberry Pi -->
@@ -95,6 +95,6 @@
   <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="scarthgap"/>
 
   <!-- meta-riscv for several risc boards -->
-  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="master"/>
+  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="scarthgap"/>
 
 </manifest>
