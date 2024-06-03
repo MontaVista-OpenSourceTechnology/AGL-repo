@@ -84,7 +84,7 @@
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="scarthgap"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="master"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="scarthgap"/>
   <project name="meta-lts-mixins" path="bsp/meta-lts-mixins_u-boot" remote="yocto" revision="scarthgap/u-boot"/>
 
   <!-- Sancloud BSP layers -->
