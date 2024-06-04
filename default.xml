@@ -98,4 +98,7 @@
   <!-- meta-riscv for several risc boards -->
   <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="d330dfe4011a873d379cdf6228fa1f243cf5a6db" upstream="scarthgap"/>
 
+  <!-- meta-tegra -->
+  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="ddec4903c6c86679dd7a1ed304daf387a5be7c47" upstream="scarthgap"/>
+
 </manifest>
