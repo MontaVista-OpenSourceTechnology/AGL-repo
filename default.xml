@@ -30,17 +30,17 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="f66f8fa9f605d5dc39acb10226198b3ab40dcaa3" upstream="master" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="907b9c0ae697ff169470157c0dc5e2ae11e5452d" upstream="master" />
+  <project name="poky" path="external/poky" remote="yocto" revision="d6afc28dee7f7c7adfdac12e770deb9a9c04b116" upstream="master" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="10fc3fa15f00ffbb0eb44413210c3ffda5dfb4fd" upstream="master" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="89e2b594dcfd0643b84830dce5e7a5e2cbb046cd" upstream="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e96da98e4038f5388596b4294ac3d8425b2dacb2" upstream="master"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ddb498a726d904eeabaed8908e17b06a68511a1c" upstream="master"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="7bb36db51bf8c41dd59fcbc207583ca43ac7e855" upstream="master"/>
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="1ef5e7cff6b7713e218e69698252b2eb3b5627a7" upstream="dev"/>
 
   <!-- Security layer -->
@@ -56,7 +56,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="2c376d72a1aed6b335aebd3bb28663f973a11fa9" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="49b031747859cc20238c07628f1b550fcf759de9" upstream="master"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="ce7d354da7a498f90ba260c006d29a4d23e3b4f7" upstream="master"/>
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="5435e4c8b3fa6997a87d9eba0a253d077edcb80e" upstream="master"/>
@@ -85,7 +85,7 @@
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="67b556502b1c44fb55ddd02af1fa0b07a753b075" upstream="master"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="1879cb831f4ea3e532cb5ce9fa0f32be917e8fa3" upstream="master"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="b7fa9b4ba1a99f9302c22ac09b23261383195d8c" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7eb9a421f547e347c9da23463734758568e13f95" upstream="kirkstone"/>
