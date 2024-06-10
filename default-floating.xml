@@ -10,6 +10,7 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
+  <remote name="qtio" fetch="https://code.qt.io/" />
 
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="next"/>
@@ -41,6 +42,7 @@
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="master"/>
+  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="dev"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="master"/>
