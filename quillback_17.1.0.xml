@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+         review="https://gerrit.automotivelinux.org/gerrit/"
+         pushurl="ssh://gerrit.automotivelinux.org:29418"
+  />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="openembedded" fetch="https://git.openembedded.org/" />
+
+  <!-- defaults -->
+  <default remote="agl" sync-j="4" revision="refs/tags/quillback/17.1.0"/>
+
+
+  <!-- CORE -->
+  <!-- use agl revisions/branches here -->
+
+  <!-- AGL things. -->
+  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+
+
+  <!-- ALL EXTERNAL REPOS BELOW USE A FIXED REVISION ! -->
+
+  <!-- YOCTO & OE -->
+
+  <!-- Yocto/OpenEmbedded things. -->
+  <project name="poky" path="external/poky" remote="yocto" revision="31751bba1c789f15f574773a659b8017d7bcf440" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5a6f7925bd2b885955c942573f70a5594f231563" upstream="kirkstone" />
+  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="1a6746a81da4d5bf2e5640fd2fa8f3ea453d40bf" upstream="kirkstone/rust" />
+
+
+  <!-- UPSTREAM COMPONENTS -->
+
+  <!-- meta-virtualization -->
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="cb2bc17e96552cdfc141d27bd9f4dbd95a872846" upstream="kirkstone"/>
+
+  <!-- Qt things -->
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
+
+  <!-- Security layer -->
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="353078bc06c8b471736daab6ed193e30d533d1f1" upstream="kirkstone"/>
+
+  <!-- SELinux layer -->
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="kirkstone"/>
+
+  <!-- meta-codescanner - support for using CodeScanner during the build -->
+  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
+
+  <!-- meta-spdxscanner - support for fossology -->
+  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="25373bc58ece8b6f07680a103b4a1bbbc99e0db1" upstream="master"/>
+
+  <!-- clang support -->
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="312ff1c39b1bf5d35c0321e873417eb013cea477" upstream="kirkstone"/>
+
+  <!-- meta-flutter -->
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="19f8ee7125c5621a9ac6eb3d236c573318f7e0ec" upstream="kirkstone"/>
+  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="9da59747656328f80faca43e52d4b4fa3ef6682d" upstream="main"/>
+
+  <!-- meta-tensorflow -->
+  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" upstream="kirkstone"/>
+
+  <!-- BSPs -->
+
+  <!-- meta-aws -->
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="bec56ed1dcb6733576221533d44129b75d0336b8" upstream="kirkstone"/>
+
+  <!-- Renesas Gen3 specific things -->
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="11221be7ff3a535f17357bc8ac7e2851d0e8ff02" upstream="kirkstone-dev"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="511808a3e794ad0e35386f83d3d159c9ba48b4be" upstream="kirkstone-Yocto-v5.9.0"/>
+  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
+
+  <!-- consolidate on meta-freescale from git.yoctoproject.org -->
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="3edd8aa034f5790cf3d78a349fbb127200a58b13" upstream="kirkstone"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="9e94b64bdfebcf7bfdf2af6447cec866a4efa814" upstream="kirkstone"/>
+
+  <!-- TI Vayu / Jacinto 6 / DRA7 -->
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="d7b7b6fb6c7c5545e718e44f38853d1718ce5446" upstream="kirkstone"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="8dac9b02adf39fefcbf7e16bd78b4685c90eb4d3" upstream="kirkstone"/>
+
+  <!-- Raspberry Pi 4 -->
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="9dc6673d41044f1174551120ce63501421dbcd85" upstream="kirkstone"/>
+
+  <!-- Sancloud BSP layers -->
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="e1a23019ce2ff3879986fa63071f1a2caa23697c" upstream="kirkstone"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="032a394e7569d1254cd17a0358475b986e64a5a4" upstream="master"/>
+
+  <!-- Sifive BSP -->
+  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="e49536e7dbec58e713dfba489edbdb2415b8e3c7" upstream="master"/>
+
+</manifest>
