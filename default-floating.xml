@@ -7,7 +7,7 @@
          review="https://gerrit.automotivelinux.org/gerrit/"
          pushurl="ssh://gerrit.automotivelinux.org:29418"
   />
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
   <remote name="qtio" fetch="https://code.qt.io/" />
@@ -66,6 +66,8 @@
   <!-- meta-tensorflow -->
   <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="master"/>
 
+  <!-- meta-python-ai -->
+  <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="main"/>
 
   <!-- BSPs -->
 
@@ -88,14 +90,16 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="master"/>
 
-  <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="kirkstone"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
-
   <!-- meta-sifive -->
   <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="master"/>
 
   <!-- meta-riscv for several risc boards -->
   <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="master"/>
+
+  <!-- meta-tegra -->
+  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="master"/>
+
+  <!-- rockchip layers -->
+  <project name="meta-rockchip" path="bsp/meta-rockchip" remote="yocto" revision="master"/>
 
 </manifest>

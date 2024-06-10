@@ -7,7 +7,7 @@
          review="https://gerrit.automotivelinux.org/gerrit/"
          pushurl="ssh://gerrit.automotivelinux.org:29418"
   />
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
   <remote name="qtio" fetch="https://code.qt.io/" />
@@ -30,24 +30,25 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="f66f8fa9f605d5dc39acb10226198b3ab40dcaa3" upstream="master" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="907b9c0ae697ff169470157c0dc5e2ae11e5452d" upstream="master" />
+  <project name="bitbake" path="external/bitbake" remote="openembedded" revision="6e511d035a3d1e4129dab7b0dfbf216bd8e99b47" upstream="master" />
+  <project name="openembedded-core" path="external/openembedded-core" remote="openembedded" revision="0ed4776533145c901611d7f4f942490e33481335" upstream="master" />
+  <project name="meta-yocto" path="external/meta-yocto" remote="yocto" revision="e1363aa3333cda3a4ae4706ce6577b987ba3a815" upstream="master" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="48b2cea5284fcb87442f1e9c51cfd527d78d67e2" upstream="master" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="89e2b594dcfd0643b84830dce5e7a5e2cbb046cd" upstream="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="207052a82ca59d186526fd6f88b5e098bd19cbbb" upstream="master"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ddb498a726d904eeabaed8908e17b06a68511a1c" upstream="master"/>
-  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="1ef5e7cff6b7713e218e69698252b2eb3b5627a7" upstream="dev"/>
+  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="4df44780d19196b8a21dca8c592f65ec357dfdae" upstream="dev"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034" upstream="master"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="3b93a09d528fd93995a15c4994de92759b057b15" upstream="master"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="769274a8ca624b8da314ffad249262559d9315b1" upstream="master"/>
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="9a913243ffaf26e06f151c3c293b62e28ec549f1" upstream="master"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f0bd1ac046116695dc44ca327019519ae716c12d" upstream="master"/>
@@ -56,20 +57,22 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="2c376d72a1aed6b335aebd3bb28663f973a11fa9" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="49b031747859cc20238c07628f1b550fcf759de9" upstream="master"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="cf20f8bd1366d41094c945597b95dd746e87b871" upstream="master"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="5435e4c8b3fa6997a87d9eba0a253d077edcb80e" upstream="master"/>
-  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="418058a45eab3e1b50dd125c901f0ae4253bd472" upstream="main"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="3383163ea5aec1c59268440095ccf3c0a32d8ff3" upstream="master"/>
+  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="eaddb9ba610abea9f2f52bd9c37115fd6206fc57" upstream="main"/>
 
   <!-- meta-tensorflow -->
   <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="29509c97e9009ed0ae99ce6c2554e463575dc10c" upstream="master"/>
 
+  <!-- meta-python-ai -->
+  <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="a0705e122d0a851cf4aab8925c8fc44d967e9bc4" upstream="master"/>
 
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="db6c4f6ded2e0c59cda547afca72271b11fbb37a" upstream="master"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="3f3f5db306a3930eda17056a070e6aec7d67724c" upstream="master"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="0605dac7d8972740e58d08a9cf1e2040617fe1fc" upstream="scarthgap-dev"/>
@@ -77,24 +80,26 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="23ceaa0ecd56b41e3edb44ed0c7216829f7613ad" upstream="master"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="f2e8d77e55acd3af90548640e93c2d26a2c7cf82" upstream="master"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="2dfa4420b4541a9ebd9b0f8db31512ed04ca188f" upstream="master"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="b2b1987841018013006f909f817a3e9b034c6227" upstream="master"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="b8965bb95ba4e3f80b99ac0d67c7f7a326fbb5de" upstream="master"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="67b556502b1c44fb55ddd02af1fa0b07a753b075" upstream="master"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="9f2a8ed5eb8384239357acf29bc411c83888113a" upstream="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="61fa7d2a15fb70885fca3500a22aa8b96238c279" upstream="master"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="1879cb831f4ea3e532cb5ce9fa0f32be917e8fa3" upstream="master"/>
-
-  <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7eb9a421f547e347c9da23463734758568e13f95" upstream="kirkstone"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="032a394e7569d1254cd17a0358475b986e64a5a4" upstream="master"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="c769753bcfd387b8c9d2d8fb6581badcdc4bb831" upstream="master"/>
 
   <!-- meta-sifive -->
-  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="b2678e67b079b4fb233bed4eb9b70a46b5bb06a7" upstream="master"/>
+  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="7d1fe4484ad63ca859b1e7d1fb76168ec6fcb289" upstream="master"/>
 
   <!-- meta-riscv for several risc boards -->
-  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="d330dfe4011a873d379cdf6228fa1f243cf5a6db" upstream="master"/>
+  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="7097bc60cdc33aa1df5aac4f70f13db466fa1ef5" upstream="master"/>
+
+  <!-- meta-tegra -->
+  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="e79332b1c9b1fd93c57c6b6ef5a299f4d050ba3e" upstream="master"/>
+
+  <!-- rockchip layers -->
+  <project name="meta-rockchip" path="bsp/meta-rockchip" remote="yocto" revision="2a13a49da4af4487ee71db6aff19364220da694a" upstream="master"/>
 
 </manifest>
