@@ -53,7 +53,7 @@
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
+  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="kirkstone"/>
 
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="kirkstone"/>
@@ -93,6 +93,6 @@
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- Sifive BSP -->
-  <project name="dl9pf/meta-sifive" path="bsp/meta-sifive" remote="github" revision="master"/>
+  <project name="dl9pf/meta-sifive" path="bsp/meta-sifive" remote="github" revision="kirkstone"/>
 
 </manifest>
