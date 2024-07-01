@@ -41,6 +41,7 @@
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="scarthgap"/>
+  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="6.7"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="scarthgap"/>
