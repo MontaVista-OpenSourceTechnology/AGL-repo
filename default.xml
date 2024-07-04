@@ -65,6 +65,8 @@
   <!-- meta-tensorflow -->
   <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="29509c97e9009ed0ae99ce6c2554e463575dc10c" upstream="master"/>
 
+  <!-- meta-python-ai -->
+  <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="285a246d79c91848300382ecbe4ff918336f72ab" upstream="scarthgap"/>
 
   <!-- BSPs -->
 
