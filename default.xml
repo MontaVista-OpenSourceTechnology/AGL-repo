@@ -103,4 +103,8 @@
   <!-- meta-tegra -->
   <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="caf164e4917dc56d59990c72f9d8284abb6621f5" upstream="scarthgap"/>
 
+  <!-- rockchip layers -->
+  <project name="JeffyCN/meta-rockchip" path="bsp/meta-rockchip" remote="github" revision="56b093d3d43dc65cf1e229a3a9dfdac5aef98db7" upstream="scarthgap"/>
+  <project name="agl-ic-eg/meta-rockchip-extra" path="bsp/meta-rockchip-extra" remote="github" revision="52a536951707b0b576fdf6696e65bd20f268556e" upstream="scarthgap-agl"/>
+
 </manifest>
