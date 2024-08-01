@@ -30,7 +30,7 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="f7def85be9f99dcb4ba488bead201f670304379b" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="f43f393ef0246b7bee6eed8bcf8271cf2b8cdf40" upstream="scarthgap" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="18f939a5fb37528a5415b05077ece383c346a119" upstream="scarthgap" />
 
 
