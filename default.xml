@@ -105,6 +105,6 @@
 
   <!-- rockchip layers -->
   <project name="JeffyCN/meta-rockchip" path="bsp/meta-rockchip" remote="github" revision="56b093d3d43dc65cf1e229a3a9dfdac5aef98db7" upstream="scarthgap"/>
-  <project name="agl-ic-eg/meta-rockchip-extra" path="bsp/meta-rockchip-extra" remote="github" revision="52a536951707b0b576fdf6696e65bd20f268556e" upstream="scarthgap-agl"/>
+  <project name="agl-ic-eg/meta-rockchip-extra" path="bsp/meta-rockchip-extra" remote="github" revision="5f87f2e2dda3f9d2ca6657c170570f15ff7876e2" upstream="scarthgap-agl"/>
 
 </manifest>
