@@ -29,21 +29,21 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="4cdc553814640851cce85f84ee9c0b58646cd33b" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="9a24b7679810628b594cc5a9b52f77f53d37004f" upstream="kirkstone" />
-  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="1a6746a81da4d5bf2e5640fd2fa8f3ea453d40bf" upstream="kirkstone/rust" />
+  <project name="poky" path="external/poky" remote="yocto" revision="7e87dc422d972e0dc98372318fcdc63a76347d16" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="4ad41baed6236d499804cbfc4f174042d84fce97" upstream="kirkstone" />
+  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e0cd09e3b8367e2745a27db2e7ff1f8452c8cf41" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="02a6c00d9370992a54296633de26a13a9a08ca2a" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="353078bc06c8b471736daab6ed193e30d533d1f1" upstream="kirkstone"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="b9cf9cd639bc8d1b4828eb0bd012b71486d35176" upstream="kirkstone"/>
 
   <!-- SELinux layer -->
   <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="kirkstone"/>
@@ -67,7 +67,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="ea55f743388f716ac31efc3f3bded50373b7be39" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="b2895d6b66f5efd07df7e12736d9f31b8750c0b5" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="11221be7ff3a535f17357bc8ac7e2851d0e8ff02" upstream="kirkstone-dev"/>
@@ -79,15 +79,15 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="9e94b64bdfebcf7bfdf2af6447cec866a4efa814" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="260e3adc2bf322f52d81c0642c825088a88bb051" upstream="kirkstone"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="490da1ca76b48a118d6b20873aaa1ec5bce4b2d4" upstream="kirkstone"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="936c02ec13661bd86a05f7f90e1b920d5092d670" upstream="kirkstone"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="1a4575bf209e420a477e095bf2a5113f39229906" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="d7544f35756d87834e8b4bf3e3e733c771d380ae" upstream="kirkstone"/>
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="e1a23019ce2ff3879986fa63071f1a2caa23697c" upstream="kirkstone"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="73e3b9236e4c722f34058162cbb2c04e749cf162" upstream="master"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="e2c8f3fcdc7ac3fe05e6727ad5fbee1555db7675" upstream="master"/>
 
   <!-- Sifive BSP -->
   <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="e49536e7dbec58e713dfba489edbdb2415b8e3c7" upstream="kirkstone"/>
