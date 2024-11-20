@@ -40,7 +40,6 @@
   <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e5878c864aacd24fe8f09ab7221f0ada13cd22d3" upstream="scarthgap"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="57fef415fcde6c3d70a028f42f318f455633dc97" upstream="6.7"/>
 
   <!-- Security layer -->
