@@ -30,24 +30,24 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="2034fc38eb4e63984d9bd6b260aa1bf95ce562e4" upstream="scarthgap" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="72018ca1b1a471226917e8246e8bbf9a374ccf97" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="582da2a157567f4169c675f09a381b343bec9688" upstream="scarthgap" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="ea99328a0685b577adf4175e4d674c560ce9a490" upstream="scarthgap" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e5878c864aacd24fe8f09ab7221f0ada13cd22d3" upstream="scarthgap"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="7c78f4ef96020b702c027d179895c9f97179b4fc" upstream="scarthgap"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="57fef415fcde6c3d70a028f42f318f455633dc97" upstream="6.7"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="9f5a46620a07d7b15722593a33e46a4d19392b75" upstream="scarthgap"/>
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="3aff015697fa056b4af83b1c9ba44eca346a8a37" upstream="scarthgap"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="38f9a4a68349b6ce32fdaa320f378991e29d09e9" upstream="master"/>
@@ -56,7 +56,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="2c376d72a1aed6b335aebd3bb28663f973a11fa9" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="2b7433611d80f6d0ee1b04156fa91fc73d3c2665" upstream="scarthgap"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="9fbfa9db33131abdf3870a94f00199eb53e276e5" upstream="scarthgap"/>
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="45e9a2e59f7422ab45fa094aba3bf0c342ec727f" upstream="scarthgap"/>
