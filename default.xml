@@ -30,14 +30,14 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="582da2a157567f4169c675f09a381b343bec9688" upstream="scarthgap" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="ea99328a0685b577adf4175e4d674c560ce9a490" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="2541a8171f91812a4b16e7dc4da0d77d2318a256" upstream="scarthgap" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="b8d1a14f7f3b76457c36752202ea7ae5881b6654" upstream="scarthgap" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="7c78f4ef96020b702c027d179895c9f97179b4fc" upstream="scarthgap"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="450941a1b6df96285691e8c23d4f332d3c88a994" upstream="scarthgap"/>
 
   <!-- Qt things -->
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="57fef415fcde6c3d70a028f42f318f455633dc97" upstream="6.7"/>
@@ -70,7 +70,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="4a73beeabf7ec864aa14209cd76936d21a344986" upstream="scarthgap"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="a3abdc1ac5f23a953e7d1ec51c12bc121da7d2c5" upstream="scarthgap"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="346e1b3cf1c38eb6b4c9db434295a43069cfdc98" upstream="scarthgap-dev"/>
@@ -78,12 +78,12 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="b70cec85b6a1a9cad70251623dc17e34f426cdf9" upstream="scarthgap"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="1805a964583d1773310ddbe185a52b0ab3468e6d" upstream="scarthgap"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="1dfc65dd2006b51d156be5bcda0e3c72c936ad0a" upstream="scarthgap"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="47ebda87ea66da9d9e8b4f3994ebdab66520468e" upstream="scarthgap"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="7088279c0ab00c7dabefdd4544951b4746b48476" upstream="scarthgap"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="4213a71a8eaed4a57562c0608f9ba29efc39eede" upstream="scarthgap"/>
 
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="6df7e028a2b7b2d8cab0745dc0ed2eebc3742a17" upstream="scarthgap"/>
@@ -97,7 +97,7 @@
   <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="4b50b9c21248432427e2491462180e7d5df61ae8" upstream="scarthgap"/>
 
   <!-- meta-riscv for several risc boards -->
-  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="f337d262cb5aa9eb38bdefee983f85fd951c739a" upstream="scarthgap"/>
+  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="76727db91108f53afc8a5b72651167c4446b5fcb" upstream="scarthgap"/>
 
   <!-- meta-tegra -->
   <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="caf164e4917dc56d59990c72f9d8284abb6621f5" upstream="scarthgap"/>
