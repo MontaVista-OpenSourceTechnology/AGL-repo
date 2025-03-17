@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="f50532593651dff82bc952288d786c55038c2c86" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="de8681b4a2a101b99dd2c48d89a7de2ccd9a961f" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="b5aa03f336c121269551f9e7baed4c677c76bb39" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="7e18b3fc774b7efabf9a20ae3cd6abd0e0715b59" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="b5a1645250c17fb657b7f10166f1c665ce192aaf" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="cf982c9fad8fe654058d80f53c558fa6f23a5193" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
@@ -55,7 +55,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="29fe84d965def4e290a7639fa79dddd890e64eb7" upstream="kirkstone"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="d7f827890d0865c9862eeaee42fd367515d59557" upstream="kirkstone"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="0356fab9b788e6071471f82743964aec1775cd71" upstream="kirkstone"/>
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="19f8ee7125c5621a9ac6eb3d236c573318f7e0ec" upstream="kirkstone"/>
@@ -67,10 +67,10 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="d6453f2f232d17e535ed6a5b2e6bb64f36db9d2c" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="4df8cef97ac8cf9a8166b8400b400e1553a6c782" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="11221be7ff3a535f17357bc8ac7e2851d0e8ff02" upstream="kirkstone-dev"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="86bb1aa74443ff7ba7ba647954e193bf843819af" upstream="kirkstone-dev"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="511808a3e794ad0e35386f83d3d159c9ba48b4be" upstream="kirkstone-Yocto-v5.9.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
@@ -80,7 +80,7 @@
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="936c02ec13661bd86a05f7f90e1b920d5092d670" upstream="kirkstone"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="417233481d8daa46633045fac358260d07cf1670" upstream="kirkstone"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="98c5c3d732334a26d57cb3534230e858d96db0c6" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="d7544f35756d87834e8b4bf3e3e733c771d380ae" upstream="kirkstone"/>
