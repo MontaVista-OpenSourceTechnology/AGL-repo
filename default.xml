@@ -32,6 +32,7 @@
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="external/poky" remote="yocto" revision="bab0f9f62af9af580744948dd3240f648a99879a" upstream="scarthgap" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e92d0173a80ea7592c866618ef5293203c50544c" upstream="scarthgap" />
+  <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="a8046d5ec53b1856169ac795aa87cb0d5db84c04" upstream="scarthgap/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
