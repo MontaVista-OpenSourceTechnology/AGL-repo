@@ -29,8 +29,8 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="d70d287a77d5026b698ac237ab865b2dafd36bb8" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="f8dddbfcbfe502cb71375a7a907e61a92e8d4474" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="ab9a994a8cd8e06b519a693db444030999d273b7" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e42549cef364ae09b3b7c8b64bbeab32e50f1bb0" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
@@ -62,20 +62,20 @@
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="9da59747656328f80faca43e52d4b4fa3ef6682d" upstream="main"/>
 
   <!-- meta-tensorflow -->
-  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" upstream="kirkstone"/>
+  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="b1868f9272b8b2a294d786109d9a4b53f8f78a00" upstream="kirkstone"/>
 
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="5f968bb1cb3138ad46c05b93cfe362c2a9c7dd00" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="9dd75f69c59f19125ac96a796bc97f06c4dc8a40" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="86bb1aa74443ff7ba7ba647954e193bf843819af" upstream="kirkstone-dev"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="2073cef600ee232a146df77297bfd90369b5762a" upstream="kirkstone-dev"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="511808a3e794ad0e35386f83d3d159c9ba48b4be" upstream="kirkstone-Yocto-v5.9.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="2f83b211beff98d84632b186691ca1ffda34fa6c" upstream="kirkstone"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="ccb66d5754fb3027670e15d33b5dd63daffaf2eb" upstream="kirkstone"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="48516272d97f9415e0ee3ab54a923e4c40143e69" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
