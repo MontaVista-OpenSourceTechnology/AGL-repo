@@ -30,8 +30,8 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="bab0f9f62af9af580744948dd3240f648a99879a" upstream="scarthgap" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e92d0173a80ea7592c866618ef5293203c50544c" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="ac257900c33754957b2696529682029d997a8f28" upstream="scarthgap" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="491671faee11ea131feab5a3a451d1a01deb2ab1" upstream="scarthgap" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="a8046d5ec53b1856169ac795aa87cb0d5db84c04" upstream="scarthgap/rust" />
 
 
@@ -63,7 +63,7 @@
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="e1e6d858169bcfdc466ec9f17ea116539a1c4918" upstream="v2.0"/>
 
   <!-- meta-tensorflow -->
-  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="29509c97e9009ed0ae99ce6c2554e463575dc10c" upstream="master"/>
+  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="c382865206fe925a02a1cdbdd856e16310bc9dbc" upstream="scarthgap"/>
 
   <!-- meta-python-ai -->
   <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="13b6e6c0c8bd80df1e9e67ccd007da33b0ba21a5" upstream="scarthgap"/>
@@ -71,7 +71,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="8409c1b74722964befed5af53d750b0e3a48dcd4" upstream="scarthgap"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="ef68855460e48ee15720218e792bf76081e0bc8d" upstream="scarthgap"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="89dddd954b07520b6b3f0aba90f69404646ce8b8" upstream="scarthgap-dev"/>
@@ -84,10 +84,10 @@
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" upstream="scarthgap"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="13fb4cc4de631b7e813510981017044fc33eb537" upstream="scarthgap"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="9a4cf5b82fb0ea5c7769c2ff168fea4af8dac24a" upstream="scarthgap"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="3b27c95c163a042f8056066ec3d27edfcc42da7f" upstream="scarthgap"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="bce7b3acd2e0d9d127fcb57eae4a512bd7e7924a" upstream="scarthgap"/>
   <project name="meta-lts-mixins" path="bsp/meta-lts-mixins_u-boot" remote="yocto" revision="66ceeebd047d7fdfc8668b300319a76da8ae257d" upstream="scarthgap/u-boot"/>
 
   <!-- Sancloud BSP layers -->
@@ -101,10 +101,10 @@
   <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="76727db91108f53afc8a5b72651167c4446b5fcb" upstream="scarthgap"/>
 
   <!-- meta-tegra -->
-  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="fc0328c026a65977ddfa3a338f69436fcfc56b81" upstream="scarthgap"/>
+  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="e4379e5131b0f0df3949c023a13f648506a3084d" upstream="scarthgap"/>
 
   <!-- rockchip layers -->
-  <project name="JeffyCN/meta-rockchip" path="bsp/meta-rockchip" remote="github" revision="97f8ada9a91cec7520b32fa92bb2cbfa8232b610" upstream="scarthgap"/>
+  <project name="JeffyCN/meta-rockchip" path="bsp/meta-rockchip" remote="github" revision="d7a4873b1c63aa95f4aa9c42bb0764215dc368ae" upstream="scarthgap"/>
   <project name="agl-ic-eg/meta-rockchip-extra" path="bsp/meta-rockchip-extra" remote="github" revision="c1ec27440639228f05951beeddc8436e60e7d695" upstream="scarthgap-agl"/>
 
 </manifest>
