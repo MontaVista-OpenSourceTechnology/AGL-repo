@@ -58,11 +58,11 @@
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="scarthgap"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="master"/>
-  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="main"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="scarthgap"/>
+  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="v2.0"/>
 
   <!-- meta-tensorflow -->
-  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="master"/>
+  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="scarthgap"/>
 
   <!-- meta-python-ai -->
   <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="scarthgap"/>
@@ -75,7 +75,7 @@
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="scarthgap-dev"/>
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="kirkstone-Yocto-v5.9.0"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="v5.9.4-scarthgap"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
