@@ -29,8 +29,8 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="ab9a994a8cd8e06b519a693db444030999d273b7" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e42549cef364ae09b3b7c8b64bbeab32e50f1bb0" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="78c9cb3eaf071932567835742608404d5ce23cc4" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="058249f9a836e3aa866436aa6e37d6d48ff768fd" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
@@ -67,7 +67,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="9dd75f69c59f19125ac96a796bc97f06c4dc8a40" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="b4c53843d3b039c27dc907530de29f67558157b0" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="2073cef600ee232a146df77297bfd90369b5762a" upstream="kirkstone-dev"/>
@@ -79,7 +79,7 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="48516272d97f9415e0ee3ab54a923e4c40143e69" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="6b2d97cecd1b0e4bf4caee9a65595d279b57a686" upstream="kirkstone"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="10c27f061b22af78e17a23cf540b69501afc7160" upstream="kirkstone"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="52018a8d730b2977d7163bf56c398905ef9115ac" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
