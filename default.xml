@@ -68,6 +68,9 @@
   <!-- meta-python-ai -->
   <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="13b6e6c0c8bd80df1e9e67ccd007da33b0ba21a5" upstream="scarthgap"/>
 
+  <!-- meta-ros -->
+  <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="4439a28b68b1d4367ea3063332c0813c027eb1ba" upstream="scarthgap"/>
+
   <!-- BSPs -->
 
   <!-- meta-aws -->
