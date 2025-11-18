@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="51dc9c464de0703bfbc6f1ee71ac9bea20933a45" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5c138125018fef4b240e62b664a809d19f4b26a5" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="04b39e5b7eb19498215d85c88a5fffb460fea1eb" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="07ac1890c843b374c27e150f1a2e53ad3db2a8e4" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="5429fc0f5c2ebd7187e54913220f579417fcbaed" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e8de051a53f979040eaa641d7b69d8fd00275b9a" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
@@ -67,7 +67,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="2d78d694b91ae9cb12c60035de3da99eead4d266" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="d9dea07d6469a194b13822022c9eb4d4614cdcf0" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="2073cef600ee232a146df77297bfd90369b5762a" upstream="kirkstone-dev"/>
@@ -79,7 +79,7 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="48516272d97f9415e0ee3ab54a923e4c40143e69" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="10c27f061b22af78e17a23cf540b69501afc7160" upstream="kirkstone"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c3e9fb12aa31d25e33d8392c4a233ed1275a3278" upstream="kirkstone"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="52018a8d730b2977d7163bf56c398905ef9115ac" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
