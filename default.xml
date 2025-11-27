@@ -81,6 +81,9 @@
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="fdc590b9f9853d129d2286876e22fdc91c1fcaa4" upstream="v5.9.4-scarthgap"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
+  <!-- Renesas R-Car V4H Sparrow-Hawk -->
+  <project name="rcar-community/meta-sparrow-hawk" path="bsp/meta-sparrow-hawk" remote="github" revision="7c5ada3eedb01425c59eea4de44a567a3be29aaf" upstream="scarthgap"/>
+
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="62423c69631d7f7cffe2bd20997412d76caa94ef" upstream="scarthgap"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d" upstream="scarthgap"/>
