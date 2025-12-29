@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="04b39e5b7eb19498215d85c88a5fffb460fea1eb" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="07ac1890c843b374c27e150f1a2e53ad3db2a8e4" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="2c05660b21c7cc1082aeac8b75d8a2d82e249f63" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="97d4be2839754dadfc326c21948472c2fc2985ce" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="e8de051a53f979040eaa641d7b69d8fd00275b9a" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="c474ae21b11a816be607eb7b44d2cf77d1125bce" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
@@ -67,7 +67,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="d9dea07d6469a194b13822022c9eb4d4614cdcf0" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="a4231d615034164fd7a501484bafd88bb25acbde" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="2073cef600ee232a146df77297bfd90369b5762a" upstream="kirkstone-dev"/>
