@@ -60,7 +60,7 @@
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="b6e338a8b1fc9f8907f2c9a167c972a1907ff2ea" upstream="scarthgap"/>
-  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="eaddb9ba610abea9f2f52bd9c37115fd6206fc57" upstream="v2.0"/>
+  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="ef660bd3c3f8da2da2139608336aa3a33f7fc2f4" upstream="v2.0"/>
 
   <!-- meta-tensorflow -->
   <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="eeee54cfa3c51c1fd99604a0d5f173096bdcf1da" upstream="scarthgap"/>
