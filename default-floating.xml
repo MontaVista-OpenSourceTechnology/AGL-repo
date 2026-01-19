@@ -96,10 +96,6 @@
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="scarthgap"/>
   <project name="meta-lts-mixins" path="bsp/meta-lts-mixins_u-boot" remote="yocto" revision="scarthgap/u-boot"/>
 
-  <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="kirkstone"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
-
   <!-- meta-sifive -->
   <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="scarthgap"/>
 
