@@ -40,7 +40,7 @@
   <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="scarthgap"/>
 
   <!-- Qt things -->
-  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="6.7"/>
+  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="6.8"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="scarthgap"/>
