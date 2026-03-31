@@ -29,7 +29,7 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="ff118ede826a9ae45eb35025a5f7f612880fba01" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="8334e82e1d85e50557bd3da64054fc9e3eafc495" upstream="kirkstone" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8a598a2bc9199a4fbb9008a32ab143fb509a0933" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="6a13fff3bd2945dee63e9515db11ef69cbe9daec" upstream="kirkstone/rust" />
 
@@ -37,7 +37,7 @@
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="c474ae21b11a816be607eb7b44d2cf77d1125bce" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="92b6abcdfb6f12c4931247f0f29aaf5331984525" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
@@ -67,7 +67,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="8f7bf66699789eee7afa907b9513b0709ef79a01" upstream="kirkstone"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="6dfb335bcc0415e72d365fc7d0d638036354711d" upstream="kirkstone"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="2073cef600ee232a146df77297bfd90369b5762a" upstream="kirkstone-dev"/>
@@ -75,7 +75,7 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="7286bef07802fc493894c5917a315d53c8fe2191" upstream="kirkstone"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f1ecdeec20dd95d2eab6c6d9036b2a2309b7d862" upstream="kirkstone"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="48516272d97f9415e0ee3ab54a923e4c40143e69" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
