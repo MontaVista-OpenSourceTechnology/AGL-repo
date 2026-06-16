@@ -42,7 +42,7 @@
   <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="959a211fbba059689a1c3a1b24fe0abb9224281a" upstream="wrynose"/>
 
   <!-- Qt things -->
-  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="a9a2c706fc48a02f97d2fdb16ca7558b656ce8cd" upstream="dev"/>
+  <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="93272ba36a5d45a317acdbcfed425abbd8371ab6" upstream="6.12"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" upstream="wrynose"/>
