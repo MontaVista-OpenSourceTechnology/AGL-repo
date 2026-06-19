@@ -78,7 +78,7 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- Renesas R-Car V4H Sparrow-Hawk -->
-  <project name="rcar-community/meta-sparrow-hawk" path="bsp/meta-sparrow-hawk" remote="github" revision="5460e6ff8dde5044cfb809faadd0cc90278b3e91" upstream="wrynose-dev"/>
+  <project name="rcar-community/meta-sparrow-hawk" path="bsp/meta-sparrow-hawk" remote="github" revision="a45dbc05ca63f900014d7dc4aa9255e8868d655a" upstream="wrynose-dev"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="a5edb37053083fd4d6e14a2e43ddc07e8462ed9f" upstream="master"/>
