@@ -66,6 +66,12 @@
   <!-- meta-ros -->
   <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="wrynose"/>
 
+  <!-- meta-slint -->
+  <project name="slint-ui/meta-slint" path="external/meta-slint" remote="github" revision="main"/>
+
+  <!-- meta-rust-bin -->
+  <project name="rust-embedded/meta-rust-bin" path="external/meta-rust-bin" remote="github" revision="master"/>
+
 
   <!-- BSPs -->
 
