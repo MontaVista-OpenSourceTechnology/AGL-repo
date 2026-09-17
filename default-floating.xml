@@ -13,7 +13,7 @@
   <remote name="qtio" fetch="https://code.qt.io/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="master"/>
+  <default remote="agl" sync-j="4" revision="next"/>
 
 
   <!-- CORE -->
@@ -30,25 +30,25 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="bitbake" path="external/bitbake" remote="openembedded" revision="2.18" />
-  <project name="openembedded-core" path="external/openembedded-core" remote="openembedded" revision="wrynose" />
-  <project name="meta-yocto" path="external/meta-yocto" remote="yocto" revision="wrynose" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="wrynose" />
+  <project name="bitbake" path="external/bitbake" remote="openembedded" revision="master" />
+  <project name="openembedded-core" path="external/openembedded-core" remote="openembedded" revision="master" />
+  <project name="meta-yocto" path="external/meta-yocto" remote="yocto" revision="master" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="master" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="wrynose"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="master"/>
 
   <!-- Qt things -->
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="6.12"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="wrynose"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="master"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="wrynose"/>
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
@@ -58,13 +58,13 @@
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="main"/>
 
   <!-- meta-tensorflow -->
-  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="wrynose"/>
+  <project name="meta-tensorflow" path="external/meta-tensorflow" remote="yocto" revision="master"/>
 
   <!-- meta-python-ai -->
-  <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="wrynose"/>
+  <project name="zboszor/meta-python-ai" path="external/meta-python-ai" remote="github" revision="master"/>
 
   <!-- meta-ros -->
-  <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="wrynose"/>
+  <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="master"/>
 
   <!-- meta-slint -->
   <project name="slint-ui/meta-slint" path="external/meta-slint" remote="github" revision="main"/>
@@ -76,7 +76,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="wrynose"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="master"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="wrynose-dev"/>
@@ -87,26 +87,26 @@
   <project name="rcar-community/meta-sparrow-hawk" path="bsp/meta-sparrow-hawk" remote="github" revision="wrynose-dev"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="wrynose"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="wrynose"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="master"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="master"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="wrynose"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="wrynose"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="master"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="wrynose"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="master"/>
 
   <!-- meta-sifive -->
-  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="wrynose"/>
+  <project name="sifive/meta-sifive" path="bsp/meta-sifive" remote="github" revision="master"/>
 
   <!-- meta-riscv for several risc boards -->
-  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="wrynose"/>
+  <project name="riscv/meta-riscv" path="bsp/meta-riscv" remote="github" revision="master"/>
 
   <!-- meta-tegra -->
-  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="wrynose"/>
+  <project name="OE4T/meta-tegra" path="bsp/meta-tegra" remote="github" revision="master"/>
 
   <!-- rockchip layers -->
-  <project name="meta-rockchip" path="bsp/meta-rockchip" remote="yocto" revision="wrynose"/>
+  <project name="meta-rockchip" path="bsp/meta-rockchip" remote="yocto" revision="master"/>
 
 </manifest>
