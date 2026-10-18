@@ -65,12 +65,6 @@
   <!-- meta-ros -->
   <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="f4a5e4800a90ae435b5437d895ea4cd894fad53a" upstream="wrynose"/>
 
-  <!-- meta-slint -->
-  <project name="slint-ui/meta-slint" path="external/meta-slint" remote="github" revision="9a364c888925fe9827cf9febfcd507cdedf129e3" upstream="main"/>
-
-  <!-- meta-rust-bin -->
-  <project name="rust-embedded/meta-rust-bin" path="external/meta-rust-bin" remote="github" revision="54721fa1c7a4edaba7fb63cdbcaf0c6253c5fa3a" upstream="master"/>
-
 
   <!-- BSPs -->
 
