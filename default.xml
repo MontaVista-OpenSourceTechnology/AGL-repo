@@ -53,7 +53,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="d7a4234322219afd9fd9ad66bcf3e16f34fd55f3" upstream="master"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="450ea5b3eb5b84c58e71e956c17a23ce1f2335fd" upstream="master"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="707e7636348b42f97afd3d55355f5b9e609519b0" upstream="wrynose"/>
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="eaddb9ba610abea9f2f52bd9c37115fd6206fc57" upstream="main"/>
 
   <!-- meta-tensorflow -->

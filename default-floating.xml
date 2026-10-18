@@ -54,7 +54,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="master"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="wrynose"/>
   <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="main"/>
 
   <!-- meta-tensorflow -->
