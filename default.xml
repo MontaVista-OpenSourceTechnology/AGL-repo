@@ -30,15 +30,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="64e69ed23703f6358ec431d3f5f1f8483f974cae" upstream="scarthgap" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="b5874ea07d69919d9b40d59f2c2f0bbd24bc3259" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto" revision="4fb7016a07507683359ebd620f1951fd5ea44bfa" upstream="scarthgap" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="2db6aece32c7f8ebf6015b468e1b4e21de072e3b" upstream="scarthgap" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust" remote="yocto" revision="8ed4bf1919453f20d33c492897f93164dc69f4a8" upstream="scarthgap/rust" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="f980aefbc8b3eeafb8d144e7fdac3c3b701a4fea" upstream="scarthgap"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="6e8e75775f1c73c7d5e8ffa9b1eb6040f7d10819" upstream="scarthgap"/>
 
   <!-- Qt things -->
   <project name="yocto/meta-qt6" path="external/meta-qt6" remote="qtio" revision="c58fdf7af5d92f5dc0a3446a9865580511ae8691" upstream="6.8"/>
@@ -74,7 +74,7 @@
   <!-- BSPs -->
 
   <!-- meta-aws -->
-  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="cad59b89c00012ab67d8b4f105714c8aaa5c16a4" upstream="scarthgap"/>
+  <project name="aws4embeddedlinux/meta-aws" path="bsp/meta-aws" remote="github" revision="75db4b489c21fe48dd6f0ff3d0f7f52ad67033fb" upstream="scarthgap"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="89dddd954b07520b6b3f0aba90f69404646ce8b8" upstream="scarthgap-dev"/>
@@ -85,15 +85,15 @@
   <project name="rcar-community/meta-sparrow-hawk" path="bsp/meta-sparrow-hawk" remote="github" revision="5c9df0af0874c26c4ec7d1c68938c4acf3722c71" upstream="scarthgap"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="4143744bc82508f00395a0ffe30e624b2341176a" upstream="scarthgap"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="114dda1a7639cac34e4e63c352e433d2d011a39c" upstream="scarthgap"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="ce10c065119c2d4e359235c77aae7e0d843533ef" upstream="scarthgap"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="0a4b911d9fd63ab29c4532a907fae3282dbdcfe4" upstream="scarthgap"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="ef43a90c91d5a9754b2f28f09debd553fbc6a2d5" upstream="scarthgap"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="760bcd6af8cb13cf9c56c460e4dd0fdba6ea5b79" upstream="scarthgap"/>
 
   <!-- Raspberry Pi -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="6ca1f75017cc5d5acdb8bb05634c4bc01fa049fd" upstream="scarthgap"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="018d44467c4f09eb63f8ea5e86e85d755250cf89" upstream="scarthgap"/>
   <project name="meta-lts-mixins" path="bsp/meta-lts-mixins_u-boot" remote="yocto" revision="66ceeebd047d7fdfc8668b300319a76da8ae257d" upstream="scarthgap/u-boot"/>
 
   <!-- meta-sifive pinned for p550 (includes unmatched) -->
