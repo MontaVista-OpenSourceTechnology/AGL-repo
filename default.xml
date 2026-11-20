@@ -65,6 +65,9 @@
   <!-- meta-ros -->
   <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="f4a5e4800a90ae435b5437d895ea4cd894fad53a" upstream="wrynose"/>
 
+  <!-- meta-zephyr -->
+  <project name="meta-zephyr" path="external/meta-zephyr" remote="yocto" revision="fc555c3a379df11674c2cd434f589d03589ff7b3" upstream="wrynose"/>
+
 
   <!-- BSPs -->
 
